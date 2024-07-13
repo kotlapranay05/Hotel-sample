@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage for Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background: url(https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg) center;
+            background-size: cover;
+        }
+        .form{
+            width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    
+
+    
+    <!--nav bar Open-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Fooddddie's Kitchen
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page" href="index1.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="index1.html">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page" href="#">Bookv</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="heading p-5">
+        <h1 class=" text-center text-light">Book a table</h1>
+    </div>
+    <div class="form p-5 mx-auto">
+        <div class="container card bg-secondary">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="phoneNumber" class="form-label">Phone number</label>
+                  <input type="number" class="form-control" id="phoneNumber">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">No.of Persons</label>
+                  <input type="number" class="form-control" id="inputAddress" placeholder="Enter number of persons">
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-dark">Book</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
