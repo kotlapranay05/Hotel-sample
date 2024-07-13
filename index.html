@@ -57,13 +57,18 @@
         .form-group label{
             padding-bottom: 1%;
 	        font-size: 1.2em;
+            color: antiquewhite;
         }
         .btn.btn-primary:hover {
 	        background-color: #747474;
         }
-        .booking,
+        .contact,
         .opening{
             padding-top: 7%;
+            color: blanchedalmond;
+        }
+        .text-muted span{
+            color: antiquewhite;
         }
         .end{
             padding-bottom: 10%;
@@ -193,29 +198,18 @@
     <section id="reservations" class="reservations_section">
         <div class="container">
             <div class="row end">
-                <div class="col-lg-6 booking">
-                    <h1>Make a Booking</h1>
-                    <form action="">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="phoneNumber">Phone Number</label>
-                            <input type="number" id="phoneNumber" class="form-control" placeholder="Enter your phone number">
-                        </div>
-                        <button type="submit" class="btn btn-secondary">Submit</button>
-                    </form>
-                </div>
                 <div class="col-lg-6 opening">
                     <h1>Opening Times</h1>
-                    <p class="text-muted">
+                    <p class="text- p-1">
                         <span>Monday--Thursday: 08:00 - 22:00</span><br>
                         <span>Friday--Saturday: 09:00 - 23:00</span><br>
                         <span>Sunday: 10:00 - 17:00</span><br>
                     </p>
+                </div>
+                <div class="col-lg-6 contact">
+                    
                     <h1>Contact</h1>
-                    <p class="text-muted">
+                    <p class="text-muted p-1">
                         <span>410-620-8008</span><br>
                         <span>15 Florida Ave</span><br>
                         <span>Palo-Alto, 1111 CA</span><br>
@@ -224,9 +218,9 @@
             </div>
         </div>
     </section>
-    <footer class="footer-section text-center bg-secondary >
+    <footer class="footer-section text-center bg-dark >
 		<div class="container">
-			<p class="text-dark">© 2023 Fooddddie's Kitchen. All rights reserved.</p>
+			<p class="text-light">© 2023 Fooddddie's Kitchen. All rights reserved.</p>
 		</div>
 	</footer>
 
